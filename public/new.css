@@ -1,0 +1,66 @@
+body{
+   font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    text-align: center;
+    color: brown;
+    text-decoration: underline;
+}
+
+div{
+    height: auto;
+    width: 250px;
+    border: 3px solid #007BFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.3); 
+}
+
+input{
+    height: 2.5rem;
+    width: 16rem;
+    text-align: center;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+textarea{
+    height: 5rem;
+    width: 15rem;
+    border: 1px solid dodgerblue;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 150px;
+    background-color: #28a745; 
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.back{
+    background-color: #6cace4;
+    color: white;
+}
+
+input:focus, textarea:focus {
+    outline: none; 
+    border-color: #007BFF; 
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); 
+    transition: all 0.3s ease; 
+}

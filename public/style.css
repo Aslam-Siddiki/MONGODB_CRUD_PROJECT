@@ -1,0 +1,88 @@
+body{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3{
+    font-size: 25px;
+    color: dodgerblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.chat {
+    height: 20rem;
+    width: 300px;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    border: 2px solid #bcdffb;
+}
+
+.msg{
+    background-color:  #e3f2fd;
+    color: #1565c0;
+    padding: 5px 15px;
+    border-radius: 10px;
+
+    display: flex;                   
+    justify-content: space-between;  /* left aur right corner */
+    align-items: center;    
+}
+ 
+.btn{
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #bcdffb;
+    color: black;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+.edit{
+    height: 20px;
+    width: 70px;
+    background-color: #1565c0;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: 120px;
+    margin-top: 40px;
+}
+
+.edit:hover {
+    background-color: #0d47a1; 
+    box-shadow: 0 4px 8px rgba(21, 101, 192, 0.4);
+}
+
+.back{
+    background-color: #90caf9;
+    color: #0d47a1;
+}
+
+.del{
+    height: 20px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.del:hover{
+    background-color: darkred;
+    cursor: pointer;
+}

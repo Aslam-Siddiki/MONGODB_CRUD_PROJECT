@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin: 10rem 0;
+}
+
+h1{
+    color: coral;
+}
+
+.div{
+    height: 15rem;
+    width: 35rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+button{
+    height: 30px;
+    width: 8rem;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.span{
+    text-decoration: none;
+    position: relative;
+    top: 1px;
+}
