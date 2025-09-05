@@ -56,7 +56,9 @@ h3{
     border-radius: 5px;
     position: relative;
     right: 120px;
+    left: 20px;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 .edit:hover {
@@ -84,5 +86,23 @@ h3{
 
 .del:hover{
     background-color: darkred;
+    cursor: pointer;
+}
+
+.show{
+    height: 20px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 47px;
+    right: 150px;
+    background-color:  #2563eb;
+    color: whitesmoke;
+    
+}
+
+.show:hover{
+    background-color: #0d47a1;
     cursor: pointer;
 }
